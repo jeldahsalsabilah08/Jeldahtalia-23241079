@@ -1,0 +1,23 @@
+#Belajar mulit percabangan
+
+
+
+nama = input("masukan nama")
+
+if nama=="angga": # kondisi 1
+
+    print("angga ganteng") # aksi true 1
+
+elif nama=="kian": # kondisi 2
+
+    print("kian cantik") # aksi true 2  
+
+elif nama=="escobar" : # kondisi 3
+
+    print("escobar gk ganteng") # aksi true 3
+
+else:
+
+    print("anda bukan siapa-siapa") # false   
+
+print("program selesai") # aksi end
